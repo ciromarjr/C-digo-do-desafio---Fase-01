@@ -5,12 +5,9 @@ body {
 }
 
 #hero {
-    width: 0 auto;
+    width: 592px;
     margin: 72px;
-    text-align: center;
-    display: block;
 }
-
 
 img {
     margin: 100px;
@@ -29,46 +26,23 @@ h1 span {
   margin-bottom: 32px;
 }
 
-span {
+span, a {
   color: #ff9900;
 }
 
-p {
+p, #footer {
   color: #7d7987;
   font-size: 14px;
   line-height: 28px;
 }
 
-#footer {
-  display: inline;
-  margin: 0;
-  text-align: center;
-}
-
-
-
-#footer a {
-  color: #ff9900;
-align-items: center;
-font-size: 14px;
-line-height: 28px;
-text-decoration: none;
-
-
-  
-}
-
 #footer a + a {
-   margin-left: 28px;
+    margin-left: 28px;
 }
 
 .line {
     width: 568px;
     height: 0;
-    border-top: 1px solid #ff9900;
-    margin: 0 auto;
-
-
 
     margin: 0 8px;
 
@@ -77,10 +51,6 @@ text-decoration: none;
 
 #balls {
     position: fixed;
-    
-    left: 1000px;
-    
-    
-    
-    
+    top: 0;
+    right: 0;
 }
