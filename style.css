@@ -1,16 +1,37 @@
 body {
   font-family: "Open Sans", sans-serif;
-  text-align: end;
+  text-align: center;
   margin: 0;
+  min-height: 100vh;
 }
 
 #hero {
     width: 592px;
-    margin: 72px;
+    margin: 0 auto 72;
+}
+
+.page {
+  
+  
+  width: 592px;
+  margin: 0 auto 0;
+
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+
+  
 }
 
 img {
-    margin: 100px;
+  margin-top: 0;
+  margin-bottom: 72px;
+    
+    
+}
+
+main {
+  display: block ;
 }
 
 h1 {
@@ -18,39 +39,53 @@ h1 {
   font-size: 49px;
   line-height: 56px;
   font-weight: normal;
+  width: 560px;
+  margin-bottom: 72px;
+ 
+  
 }
 
 h1 span {
   font-weight: bold;
-
-  margin-bottom: 32px;
+ 
+  
 }
 
 span, a {
   color: #ff9900;
 }
 
-p, #footer {
+p {
+  margin-bottom: 32px;
   color: #7d7987;
   font-size: 14px;
   line-height: 28px;
 }
-
-#footer a + a {
+footer {
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 33px;
+}
+footer a + a {
+  
     margin-left: 28px;
+
+
 }
 
 .line {
     width: 568px;
     height: 0;
 
-    margin: 0 8px;
+    margin: 0 auto 0;
 
     border: 1px solid #ECEFF2;
 }
 
 #balls {
     position: fixed;
-    top: 0;
-    right: 0;
+    bottom: -79px;
+    right: 1px;
 }
